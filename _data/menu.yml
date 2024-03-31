@@ -10,12 +10,11 @@
 #         url: https://github.com/riggraz/no-style-please
 #       - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
 
-entries:
-  - title: About Me
-    entries:
-      - title: Qinyu Guo
-      - title: Email[qinyuguo@chd.edu.cn]
-      - title: "My site <a href='https://scholar.google.com/citations?user=egM5oYYAAAAJ&hl=en&oi=ao'>Google Scholar</a> and <a href='https://www.researchgate.net/profile/Qinyu-Guo-2'>Research Gate</a>"
+  # - title: About Me
+  #   entries:
+  #     - title: Qinyu Guo
+  #     - title: Email[qinyuguo@chd.edu.cn]
+  #     - title: "My site <a href='https://scholar.google.com/citations?user=egM5oYYAAAAJ&hl=en&oi=ao'>Google Scholar</a> and <a href='https://www.researchgate.net/profile/Qinyu-Guo-2'>Research Gate</a>"
 
 
 
@@ -36,6 +35,27 @@ entries:
       # - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
       # url: https://github.com/riggraz/no-style-please
 
+  
+
+  # - title: rss
+  #   url: feed.xml
+
+entries:  
+  - title: About Me
+    entries:
+      - title: Qinyu Guo
+      - title: Email[qinyuguo@chd.edu.cn]
+      - title: My Site
+        entries:
+          # - title: example page
+          #   url: about
+          - title: Google Scholar
+            url: https://scholar.google.com/citations?user=egM5oYYAAAAJ&hl=en&oi=ao
+          - title: Research Gate
+            url: https://www.researchgate.net/profile/Qinyu-Guo-2
+          - title: Github
+            url: https://QinyuGuo-Pot.github.io
+  
   - title: all posts
     post_list:
       limit: 5
@@ -49,23 +69,8 @@ entries:
       show_more: true
       show_more_text: See more posts...
       show_more_url: others-archive.html
-
-  # - title: rss
-  #   url: feed.xml
   
-  - title: Myself
-    entries:
-      - title: My Site
-        entries:
-          # - title: example page
-          #   url: about
-
-          - title: Google Scholar
-            url: https://scholar.google.com/citations?user=egM5oYYAAAAJ&hl=en&oi=ao
-          - title: Research Gate
-            url: https://www.researchgate.net/profile/Qinyu-Guo-2
-          - title: Github
-            url: https://QinyuGuo-Pot.github.io
+  
   # - title: PRO TIP
   #   entries:
   #     - title: to edit this menu, edit _data/menu.yml file
