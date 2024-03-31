@@ -24,10 +24,15 @@ entries:
 
   - title: Categories
     entries:
+      - title: SoOp-R
+        url: SoOp-R-archive.html
+      - title: Literature
+        url: Literature-archive.html
       - title: Others
         url: others-archive.html
-      - title: Literature
-        url: example-archive.html
+      - title: Csharp
+        url: Csharp-archive.html
+      
       
   # - title: posts by category
   #   post_list:
