@@ -2,12 +2,21 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: info
+  - title: About Me
     entries:
-      - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
-      - title: github repo
-        url: https://github.com/riggraz/no-style-please
-      - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
+      - title: Qinyu Guo
+      - title: "Contact <a href='qinyuguo@chd.edu.cn'>mail</a>"
+        # url: https://github.com/riggraz/no-style-please
+      - title: My site
+      entries:
+        - title: Google scholar
+          url: https://scholar.google.com/citations?user=egM5oYYAAAAJ&hl=en&oi=ao
+        - title: Research gate
+          url: https://www.researchgate.net/profile/Qinyu-Guo-2
+        - title: Github
+          url: https://QinyuGuo-Pot.github.io
+
+      # - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
 
   - title: all posts
     post_list:
@@ -16,12 +25,12 @@ entries:
       show_more_text: See archive...
       show_more_url: archive.html
 
-  # - title: posts by category
-  #   post_list:
-  #     category: example2
-  #     show_more: true
-  #     show_more_text: See more posts...
-  #     show_more_url: example2-archive.html
+  - title: posts by category
+    post_list:
+      category: others
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: example2-archive.html
 
   # - title: rss
   #   url: feed.xml
