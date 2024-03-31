@@ -3,20 +3,20 @@
 
 entries:
   - title: About Me
-    # entries:
-    #   - title: Qinyu Guo
-    #   # - title: "Contact <a href='qinyuguo@chd.edu.cn'>mail</a>"
-    #     # url: https://github.com/riggraz/no-style-please
-    #   - title: My site
-    #   entries:
-    #     - title: Google Scholar
-    #       url: https://scholar.google.com/citations?user=egM5oYYAAAAJ&hl=en&oi=ao
-    #     - title: Research Gate
-    #       url: https://www.researchgate.net/profile/Qinyu-Guo-2
-    #     - title: Github
-    #       url: https://QinyuGuo-Pot.github.io
+    entries:
+      - title: Qinyu Guo
+      - title: "Contact <a href='qinyuguo@chd.edu.cn'>mail</a>"
+      - title: My site
+      entries:
+        - title: Google Scholar
+          url: https://scholar.google.com/citations?user=egM5oYYAAAAJ&hl=en&oi=ao
+        - title: Research Gate
+          url: https://www.researchgate.net/profile/Qinyu-Guo-2
+        - title: Github
+          url: https://QinyuGuo-Pot.github.io
 
       # - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
+      # url: https://github.com/riggraz/no-style-please
 
   - title: all posts
     post_list:
@@ -35,13 +35,13 @@ entries:
   # - title: rss
   #   url: feed.xml
   
-  # - title: another list
-  #   entries:
-  #     - title: with subitems
-  #       entries:
-  #         - title: with subsubitems
-  #         - title: example page
-  #           url: about
+  - title: another list
+    entries:
+      - title: with subitems
+        entries:
+          - title: with subsubitems
+          - title: example page
+            url: about
   # - title: PRO TIP
   #   entries:
   #     - title: to edit this menu, edit _data/menu.yml file
