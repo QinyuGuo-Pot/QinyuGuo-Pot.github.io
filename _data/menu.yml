@@ -1,6 +1,44 @@
 # For documentation on this file, see:
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
+entries:  
+  - title: About Me
+    entries:
+      - title: Qinyu Guo
+      - title: Email[qinyuguo@chd.edu.cn]
+      - title: My Sites
+        entries:
+          - title: Google Scholar
+            url: https://scholar.google.com/citations?user=egM5oYYAAAAJ&hl=en&oi=ao
+          - title: Research Gate
+            url: https://www.researchgate.net/profile/Qinyu-Guo-2
+          - title: Github
+            url: https://github.com/QinyuGuo-Pot?tab=repositories
+  
+  - title: All Posts
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
+  - title: Categories
+    entries:
+      - title: others
+        url: others-archive.html
+      - title: example
+        url: example-archive.html
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: others-archive.html
+  
+  # - title: posts by category
+  #   post_list:
+  #     category: others
+  #     show_more: true
+  #     show_more_text: See more posts...
+  #     show_more_url: others-archive.html
+
 
 # entries:
 #   - title: info
@@ -35,42 +73,6 @@
       # - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
       # url: https://github.com/riggraz/no-style-please
 
-  
-
-  # - title: rss
-  #   url: feed.xml
-
-entries:  
-  - title: About Me
-    entries:
-      - title: Qinyu Guo
-      - title: Email[qinyuguo@chd.edu.cn]
-      - title: My Site
-        entries:
-          # - title: example page
-          #   url: about
-          - title: Google Scholar
-            url: https://scholar.google.com/citations?user=egM5oYYAAAAJ&hl=en&oi=ao
-          - title: Research Gate
-            url: https://www.researchgate.net/profile/Qinyu-Guo-2
-          - title: Github
-            url: https://QinyuGuo-Pot.github.io
-  
-  - title: all posts
-    post_list:
-      limit: 5
-      show_more: true
-      show_more_text: See archive...
-      show_more_url: archive.html
-
-  - title: posts by category
-    post_list:
-      category: others
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: others-archive.html
-  
-  
   # - title: PRO TIP
   #   entries:
   #     - title: to edit this menu, edit _data/menu.yml file
