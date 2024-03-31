@@ -28,10 +28,7 @@ entries:
         url: others-archive.html
       - title: example
         url: example-archive.html
-      # - title: others
-      #   url: others-archive.html        
-      # - title: example
-      #   url: example-archive.html
+      
       # show_more: true
       # show_more_text: See more posts...
       # show_more_url: others-archive.html
