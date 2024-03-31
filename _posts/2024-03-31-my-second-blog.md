@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "FIRST TRY"
+title: "SECOND TRY"
 category: others
 ---
 
 # Hello, world!
-## This is my first blog
+## This is my second blog
