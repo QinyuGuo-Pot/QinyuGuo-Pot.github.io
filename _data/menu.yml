@@ -25,7 +25,7 @@ entries:
   - title: Categories
     entries:
       - title: others
-        url: others-archive.html
+        url: others-archive.html        
       - title: example
         url: example-archive.html
       show_more: true
