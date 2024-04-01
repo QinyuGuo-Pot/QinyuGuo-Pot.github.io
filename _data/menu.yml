@@ -5,7 +5,8 @@ entries:
   - title: About Me
     entries:
       - title: Qinyu Guo
-      - title: Email[qinyuguo@chd.edu.cn]
+      # - title: Email[qinyuguo@chd.edu.cn]
+      - title: "Email <a href='mailto:qinyuguo@chd.edu.cn'>qinyuguo@chd.edu.cn</a>"
       - title: My Sites
         entries:
           - title: Google Scholar
