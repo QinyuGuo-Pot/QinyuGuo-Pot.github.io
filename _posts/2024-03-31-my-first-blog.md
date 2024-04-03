@@ -59,7 +59,7 @@ $ git push origin master
 ```
 - Open https://username/username.github.io in browser
 
-### Step 8. Build picture bed
+### Step 9. Build picture bed
 - Download PicGo
 - Create a new repository named blog-img
 - Picture bed configuration 

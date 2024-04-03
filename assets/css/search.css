@@ -1,5 +1,5 @@
 .search {
-    position: absolute;
+    position: fixed;
     top: 93px;
     right: 145px;
     color: rgb(0, 0, 0);
