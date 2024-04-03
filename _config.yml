@@ -25,6 +25,17 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+## => Search
+##############################
+search:
+  provider: custom # "default" (default), false, "google", "custom"
+
+
 # navbar-links:
 #   Home Page: "https://QinyuGuo-Pot.github.io"
 #   Blogs: "https://QinyuGuo-Pot.github.io/categories/"

@@ -1,0 +1,61 @@
+<!-- 以文字形式显示，直接定义在该.html文件中，无需链接.css -->
+<div id="back-top" style="position: fixed; bottom: 70px; right: 200px;">
+    <a href="#top" title="Back to top">
+      Back to top ↑
+    </a>
+</div>
+
+<script type="text/javascript">
+    $("#back-top").hide();
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('#back-top').fadeIn();
+            } else {
+                $('#back-top').fadeOut();
+            }
+        });
+        $('#back-top a').click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 500);
+            return false;
+        });
+    });
+</script>
+<!-- -- -- -- --- ----------------------------------------------->
+
+
+
+
+<!---------------------- 以图标形式显示，需链接css文件 ---------------------------->
+
+<!-- <link rel="stylesheet" type="text/css" href="/assets/css/back_to_top.css">
+<div id="back-top">
+    <a href="#top" title="Back to top">
+      <i class="icon-2x icon-arrow-up"></i>
+    </a>
+  </div>
+  <script type="text/javascript">
+  $("#back-top").hide();
+  $(document).ready(function () {
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 100) {
+        $('#back-top').fadeIn();
+      } else {
+        $('#back-top').fadeOut();
+      }
+    });
+    $('#back-top a').click(function () {
+      $('body,html').animate({
+        scrollTop: 0
+      }, 500);
+      return false;
+    });
+  });
+  </script> -->
+<!-- -- -- -- --- ----------------------------------------------->
+
+
+
+

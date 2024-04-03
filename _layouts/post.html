@@ -4,6 +4,8 @@ layout: default
 
 {%-include back_link.html-%}
 
+
+
 <article>
   <p class="post-meta">
     <time datetime="{{ page.date }}">{{ page.date | date: site.theme_config.date_format }}</time>
@@ -13,3 +15,19 @@ layout: default
 
   {{ content }}
 </article>
+
+
+---------------------------Good Good Study-----------------------
+
+<nav class="post_navigation">
+  {% if page.previous.url %}
+    <a href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+  {% endif %}
+</nav>
+
+-----------------------------Day Day Up--------------------------
+
+{% include back_top_button.html %}
