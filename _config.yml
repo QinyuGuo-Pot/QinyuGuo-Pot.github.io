@@ -13,7 +13,7 @@ favicon: "pot.png" # name+extension of favicon (which must be put on the root fo
 remote_theme: riggraz/no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
 # theme: no-style-please
 theme_config:
-  appearance: "dark" # can be "light", "dark" or "auto"
+  appearance: "auto" # can be "light", "dark" or "auto"
   back_home_text: ".." # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
   show_description: true # show blog description in home page
@@ -24,6 +24,7 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
 
 markdown: kramdown
 kramdown:

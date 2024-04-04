@@ -4,6 +4,8 @@ title: "How to build Blog based on Github pages and Jekyll"
 category: others
 ---
 
+* 目录
+{:toc #markdown-toc}
 
 ### Step 1. Create a Github account
 

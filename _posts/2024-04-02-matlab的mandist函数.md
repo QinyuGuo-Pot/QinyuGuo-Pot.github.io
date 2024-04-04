@@ -4,6 +4,8 @@ title: matlab的mandist函数
 category: others
 date: 2019-07-20
 ---
+* 目录
+{:toc #markdown-toc}
 
 mandist(A,B)函数是用来求A中的每个行向量与B中的每个列向量的绝对距离
 
